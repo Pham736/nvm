@@ -2,6 +2,9 @@
 
 { # this ensures the entire script is downloaded #
 
+# Set Node.js version to 22 instead of latest
+export NODE_VERSION="22"
+
 nvm_has() {
   type "$1" > /dev/null 2>&1
 }
